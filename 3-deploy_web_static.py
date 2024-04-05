@@ -10,7 +10,7 @@ from os.path import exists
 # do_deploy = __import__('2-do_deploy_web_static').do_deploy
 
 
-env.hosts = ['100.25.2.1', '54.160.73.99']  # <IP web-01>, <IP web-02>
+env.hosts = ['54.160.73.99', '100.25.2.1']  # <IP web-01>, <IP web-02>
 # ^ All remote commands must be executed on your both web servers
 # (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
 
