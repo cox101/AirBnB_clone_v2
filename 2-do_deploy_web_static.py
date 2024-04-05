@@ -7,7 +7,7 @@ from fabric.operations import put
 from datetime import datetime
 import os
 
-env.hosts = ["54.160.117.237", "100.25.31.84"]   # <IP web-01>, <IP web-02>
+env.hosts = ["100.25.2.1", "54.160.73.99"]   # <IP web-01>, <IP web-02>
 
 
 def do_pack():
